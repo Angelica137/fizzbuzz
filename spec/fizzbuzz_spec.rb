@@ -16,5 +16,9 @@ describe "Fizzbuzz" do
     expect(fizzbuzz(5)).to eq 'buzz'
     expect(fizzbuzz(155)).to eq 'buzz'
   end
+  it 'returns fizzbuzz when passed multipples of 3 and multiples of 5' do
+    expect(fizzbuzz(15)).to eq 'fizzbuzz'
+    expect(fizzbuzz(45)).to eq 'fizzbuzz'
+  end
 
 end
