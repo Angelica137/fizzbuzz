@@ -12,5 +12,9 @@ describe "Fizzbuzz" do
     expect(fizzbuzz(6)). to eq 'fizz'
     expect(fizzbuzz(999)). to eq 'fizz'
   end
+  it 'returns buzz when passed some multiples of 5' do
+    expect(fizzbuzz(5)).to eq 'buzz'
+    expect(fizzbuzz(155)).to eq 'buzz'
+  end
 
 end
